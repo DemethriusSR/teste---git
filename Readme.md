@@ -2,3 +2,5 @@
 
 Testando comandos de Git.
 
+Adicionando outra linha no arquivo.
+
