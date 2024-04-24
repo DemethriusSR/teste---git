@@ -1,0 +1,98 @@
+git config --global user.name "Demethrius Rodrigues" [cria usuário]
+
+git config --global user.email "Demethrius.Rodrigues@flex.com" [cria email]
+
+git config --global core.editor nome do editor (padrão é VIM)  [cria editor]
+
+git config --list [ mostra todas as configs global ]
+
+mkdir nome da pasta [cria pasta]
+
+cd nome da pasta [vai para a pasta especifica]
+
+cd.. [volta pasta]
+
+git init [inicializa um Git repository in /User/nomedapasta/Development/Demethrius-Rodrigues/nome da pasta/.git]
+
+ls [lista arquivos]
+
+vi nome do arquivo [edita arquivo]
+
+:wq [salva arquivo modificado]
+
+more nome do arquivo [ mostra o que está escrito dentro do arquivo ]
+
+git status [mostra status]
+
+git add nome do arquivo [prepara pa adicionar arquivo]
+
+git commit -am "Adicionar comentário"
+
+git commit -m "Comentário para mostrar no arquivo comitado"
+
+################### COMMIT de todas as Pastas criadas do Projeto ##########################################
+
+git add .
+git commit -m "Projeto criado"
+git push
+
+###########################################################################################################
+
+git log --decore [mostar log do arquivo]
+
+git shortlog [Mostra os commit's dos autores]
+
+git shortlog --sn [Mostra numeros de commit's dos autores]
+
+git diff [mostra as alterações feitas antes de fazer o commit]
+
+git show [mostra informações de arquivos no git]
+
+git config --list [Mostra informações do Config]
+
+
+#################################### IMPORTANTE ####################################
+
+git checkout nome do arquivo [Reset do arquivo alterado - utilizado para resetar mudanças indesejadas]
+
+git reset HEAD nome do arquivo [reverte status | estágio do arquivo]
+
+git reset --soft e a HASH(ID do commit) [Volta commit mas deixa em staged com a modificação pronto pra ser commitado novamente]
+
+git reset --mixed e a HASH(ID do commit) [Volta commit mas volta status para antes staged, ou seja, antes da modificação pronto pra ser commitado novamente]
+
+git reset --hard e a HASH(ID do commit) [Volta todo o commit]
+
+git log [mostra HASH do commit]
+
+############################## CONFIG SSH ##############################################
+
+cd ~/.ssh/
+
+ls
+
+cat id_rsa.pub [mostra chave publica ssh]
+
+git remote [mostra repository remote]
+
+git push (diretorio para onde vai) (diretorio de onde sai) 
+
+g clone endereço do github (modificar o nome final) [Clona o Git]
+
+fork - Processo de cópia do repositório de outro usuário. Ver na página do GITHub
+
+############################# BRANCH ###################################################
+
+
+git checkout -b nome do branch [cria novo branch]
+
+git branch [Lista os branchs e diz em qual está]
+
+git checkout nome do branch [muda de branch]
+
+git branch -D nome do branch [Deleta Branch]
+
+
+
+############################# REMOTE ###################################################
+

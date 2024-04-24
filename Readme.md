@@ -1,9 +1,3 @@
-# Meu GitHub para teste
+# Projetos desenvolvidos no trabalho
 
-Testando comandos de Git.
-
-Adicionando outra linha no arquivo.
-
-93326598
-
-Name: Demethrius SR.
+Repositório para visualização de projetos feitos no trabalho, algumas pequenas aplicações utilizadas no processo.
